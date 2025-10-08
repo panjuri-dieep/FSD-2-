@@ -1,29 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Soil Moisture Dashboard</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Soil Moisture Dashboard</h1>
-  </header>
-  <div class="dashboard">
-    <div class="card">
-      <h2>Current Moisture (%)</h2>
-      <div id="moistureValue" class="moisture-display">--</div>
-    </div>
-    <div class="card">
-      <h2>Status</h2>
-      <div id="moistureStatus" class="status-display">--</div>
-    </div>
-    <button id="refreshBtn">Refresh</button>
-  </div>
-  <footer>
-    <p>&copy; 2025 Soil Dashboard Project</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soil Moisture Dashboard - Real-time Monitoring</title>
+    <meta name="description" content="Monitor soil moisture levels across different soil types with real-time data and smart watering recommendations" />
+    <meta name="author" content="Lovable" />
+
+    <meta property="og:title" content="Soil Moisture Dashboard - Smart Agriculture" />
+    <meta property="og:description" content="Real-time soil moisture monitoring with intelligent recommendations for optimal plant health" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
